@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-const ProductList = ({data: {imageURL, name, price}}) => {
+const ProductList = ({product: {imageURL, name, price}}) => {
   // const { imageURL, name, price } = product;
   // const { imageURL, name, price } = props.product;
   return (
